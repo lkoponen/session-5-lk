@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Bitter', serif;
+  background-color: #15141c; /* Dark Grey */
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lemonada', cursive;
+}
+h1 {
+  color: #fff; /* White */
+  text-shadow:
+    -4px -4px 0 #000,
+    0px 0px 0 #000,
+    0px 0px 0 #000,
+    0px 0px 0 #000;
+}
+header {
+  padding: 15px;
+}
+h1 > a {
+  color: #fff;
+  text-decoration: none;
+}
+header > p {
+  font-style: italic;
+}
+nav > a {
+  padding: 5px 30px;
+  width: 25%;
+  display: block;
+  float: left;
+  text-align: center;
+  border: solid 1px black;
+  border-radius: 10px;
+  background-color: #ebf1fd; /* Dark Grey */
+  color: #a62e47; /* Dark Pink */
+  font-family: 'Bitter', serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+}
+nav {
+  margin-bottom: 15px;
+}
+figure {
+  display: block;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+figcaption {
+  margin: 0 auto;
+  width: 500px;
+  display: block;
+  text-align: center;
+  background-color: #ebf1fd; /* White */
+  border-radius: 35px;
+}
+nav > a:hover {
+  color: #cc72b9;
+  background-color: #3e346e;
+}
+.page {
+  margin: 0 auto;
+  max-width: 900px;
+  background-color: #415abf; /* Blue */
+  border-left: solid 15px #FFF; /* White */
+  border-right: solid 15px #FFF; /* White */
+  border-bottom: double 15px #FFF; /* White */
+  padding: 0px 15px;
+  overflow: hidden;
+}
+.current-place {
+  background-color: #a62e47; /* Dark Pink */
+  color: #ebf1fd; /* Dark Grey */
+}
+.bio-image {
+  margin: 15px auto;
+  width: 500px;
+  display: block;
+  border-radius: 25px 5px;
+}
